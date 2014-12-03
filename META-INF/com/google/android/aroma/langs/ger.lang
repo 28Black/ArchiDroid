@@ -5,61 +5,62 @@
 # /_/   \_\_|  \___|_| |_|_|____/|_|  \___/|_|\__,_|
 #
 # Copyright 2014 Łukasz "JustArchi" Domeradzki
-# Contact: JustArchi@JustArchi.net
+# Kontakt: JustArchi@JustArchi.net
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# Lizenziert gemäß Apache Licence Version 2.0 (die „Lizenz“); 
+# Nutzung dieser Datei nur in Übereinstimmung mit der Lizenz erlaubt.
+# Eine Kopie der Lizenz erhalten Sie auf 
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
+#     http://www.apache.org/licenses/LICENSE-2.0.
 #
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# Sofern nicht gemäß geltendem Recht vorgeschrieben oder schriftlich
+# vereinbart, erfolgt die Bereitstellung der im Rahmen der Lizenz 
+# verbreiteten Software OHNE GEWÄHR ODER VORBEHALTE – ganz gleich,
+# ob ausdrücklich oder stillschweigend. Informationen über die 
+# jeweiligen Bedingungen für Genehmigungen und Einschränkungen im 
+# Rahmen der Lizenz finden Sie in der Lizenz.
 #
 ### LANGUAGE STRING RESOURCE FILE
 #
-#   Language          : English
-#   By                : JustArchi
-#   E-mail (optional) : JustArchi@JustArchi.net
+#   Language          : German
+#   By                : Depressed T.Bear
+#   E-mail (optional) : 
 
 
 ### ArchiDroid strings
-archidroid.apps.cooltool.desc=Highly customizable app that shows you useful information about your device (e.g. CPU usage) on the top
-archidroid.apps.esfileexplorer.desc=Very good file manager replacement for android
-archidroid.apps.greenify.desc=Saves battery by hibernating background apps when you're not using them
-archidroid.apps.lmt.desc=Enhances your device with PIE functionality, gestures support and more
-archidroid.apps.mxplayer.desc=Hardware-accelerated video player for android
-archidroid.apps.spiritfm.desc=Real, tuned, over-the-air FM radio app. Does not require internet access
-archidroid.apps.titaniumbackup.desc=A core app for every rooted user. Let's you backup/restore apps and their data on the fly
+archidroid.apps.cooltool.desc=Höchst anpassbare App. Zeigt ein paar praktische Statistiken in der Statusbar (z.B. CPU-Last)
+archidroid.apps.esfileexplorer.desc=Ein sehr guter, alternativer Datei-Manager für Android
+archidroid.apps.greenify.desc=Praktische App, spart Energie indem ungenuzte Apps in den 'Winterschlaf' versetzt werden 
+archidroid.apps.lmt.desc=Erweitert Ihr Gerät um PIE-Funktionalität, Gesten-Unterstützung und mehr
+archidroid.apps.mxplayer.desc=Exzellenter Video-Player für Android mit Hardwarebeschleunigung 
+archidroid.apps.spiritfm.desc=Echte, getunte, Over-the-Air FM-Radio App. Internet-Zugang ist es nicht erforderlich
+archidroid.apps.titaniumbackup.desc=Ein zentrale App für jeden root-Benutzer. Sichern / Wiederherstellen von Apps und deren Daten im laufenden Betrieb
 
-archidroid.bcm=BCM profiling
-archidroid.bcm.archidetect.desc=ArchiDetect tries to detect proper firmware for your device automatically
+archidroid.bcm=BCM Profilierung
+archidroid.bcm.archidetect.desc=ArchiDetect versucht automatisch, die richtige Firmware für dein Gerät zu erkennen
 
-archidroid.bootanimation=Bootanimation
-archidroid.bootanimation.archi1.desc=First ArchiDroid bootanimation, from 1.X times
-archidroid.bootanimation.archi2.desc=Second ArchiDroid bootanimation, from 2.X times
-archidroid.bootanimation.archi3.desc=Third ArchiDroid bootanimation, from 3.X times
-archidroid.bootanimation.logcat.desc=Live logcat log instead of bootanimation, powered by logcat lite app
-archidroid.bootanimation.none.desc=No bootanimation, for slightly faster boot
-archidroid.bootanimation.stock.desc=Bootanimation provided by the base system
+archidroid.bootanimation=Startanimation
+archidroid.bootanimation.archi1.desc=Erste ArchiDroid Startanimation, aus 1.X Zeiten
+archidroid.bootanimation.archi2.desc=Zweite ArchiDroid Startanimation, aus 2.X Zeiten
+archidroid.bootanimation.archi3.desc=Dritte ArchiDroid Startanimation, aus 3.X Zeiten
+archidroid.bootanimation.logcat.desc=Echtzeit Logcat-Protokoll statt Startanimation, bereitgestellt durch Logcat Lite App
+archidroid.bootanimation.none.desc=Keine Startanimation, für etwas schnellere Startzeit
+archidroid.bootanimation.stock.desc=Startanimation des Basissystems 
 
 archidroid.changelog=Changelog
-archidroid.changelog.desc=What's new
+archidroid.changelog.desc=Was neu ist
 
-archidroid.common.current=Current
-archidroid.common.default=Default value
-archidroid.common.density=Density
-archidroid.common.detected=Detected
-archidroid.common.none=None
-archidroid.common.terms.check=I agree with terms and conditions
-archidroid.common.terms.readme=Read this first!
-archidroid.common.terms.unchecked=Please check the agreement!
+archidroid.common.current=Aktuell
+archidroid.common.default=Standardwert
+archidroid.common.density=Dichte
+archidroid.common.detected=Erkannt
+archidroid.common.none=Nichts
+archidroid.common.terms.check=Ich stimme mit den Nutzungsbedingungen überein.
+archidroid.common.terms.readme=Lies das zuerst!
+archidroid.common.terms.unchecked=Bitte überprüfe die Vereinbarungen!
 
-archidroid.custom=Customize
-archidroid.custom.desc=Modify settings as you please
+archidroid.custom=Anpassen
+archidroid.custom.desc=Modifiziere die Einstellungen nach Belieben
 
 archidroid.detect.fail=ArchiDroid could not detect itself currently flashed, therefore a data wipe (factory reset) is mandatory. ArchiDroid will clean your /data partition prior to flashing. Your internal sd card content is safe!
 archidroid.detect.pass=ArchiDroid successfully detected itself being currently flashed. Would you like to wipe your data regardless?
